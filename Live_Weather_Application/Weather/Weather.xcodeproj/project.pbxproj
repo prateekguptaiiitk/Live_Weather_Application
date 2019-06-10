@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70F7B5322ADA714009CF28F /* RainEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F7B5222ADA714009CF28F /* RainEmitter.swift */; };
+		E70F7B5522ADACEC009CF28F /* SnowEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F7B5422ADACEC009CF28F /* SnowEmitter.swift */; };
 		E72EDF7B223286550005890A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72EDF7A223286550005890A /* AppDelegate.swift */; };
 		E72EDF80223286550005890A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E72EDF7E223286550005890A /* Main.storyboard */; };
 		E72EDF82223286580005890A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72EDF81223286580005890A /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E70F7B5222ADA714009CF28F /* RainEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainEmitter.swift; sourceTree = "<group>"; };
+		E70F7B5422ADACEC009CF28F /* SnowEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowEmitter.swift; sourceTree = "<group>"; };
 		E72EDF77223286550005890A /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72EDF7A223286550005890A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E72EDF7F223286550005890A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				E72EDF86223286580005890A /* Info.plist */,
 				E72EDF8E22328AC10005890A /* WeatherTableViewController.swift */,
 				E72EDF9022328B930005890A /* Weather.swift */,
+				E70F7B5222ADA714009CF28F /* RainEmitter.swift */,
+				E70F7B5422ADACEC009CF28F /* SnowEmitter.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				E72EDF8F22328AC10005890A /* WeatherTableViewController.swift in Sources */,
 				E72EDF9122328B930005890A /* Weather.swift in Sources */,
+				E70F7B5322ADA714009CF28F /* RainEmitter.swift in Sources */,
+				E70F7B5522ADACEC009CF28F /* SnowEmitter.swift in Sources */,
 				E72EDF7B223286550005890A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
